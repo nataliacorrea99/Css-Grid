@@ -1,0 +1,168 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1
+h2{
+    font-weight: 300;
+}
+h2{
+    font-size: 2.5rem;
+}
+.contenedor-grid {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 242px 242px 242px 242px;
+    
+
+}
+
+.elemento-1 {
+
+  grid-column: 1;  
+  grid-row: 1 / span 2 ;
+  background-color: rgb(226, 222, 222);
+}
+.elemento-2 {
+    grid-column: 1 / 2; 
+    grid-row: 3 / 4;
+    background-color: rgb(226, 222, 222);
+    
+
+    
+}
+.texto-2 {
+    width: 70%;
+    margin: 2rem auto;
+    margin-top: 0;
+}
+.texto-3 {
+    width: 70%;
+    margin: 2rem auto;
+    margin-top: 2rem;
+}
+
+.elemento-3 {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    background-color: white;
+    
+
+}
+.titulo_articulo{
+    padding-top: 2rem;
+    font-weight: 400;
+    font-size: 5rem;
+}
+
+.elemento-4 {
+ background-color: white;
+
+}
+
+.elemento-5 {
+    background-color: rgb(77, 76, 76);
+    grid-row: span 2;
+    color: white;
+    position: relative
+    left: 50%;
+    top: 50%;
+    height: 50vh;
+    
+}
+.titulo_galeria {
+    padding-top: 2rem;
+    font-weight: 400;
+
+}
+
+.elemento-6 {
+    grid-column: 1;
+    grid-row: 4 / 5;
+    background-color: rgb(226, 222, 222);
+
+
+
+}
+.nav{
+    width: max-content;
+    margin: 0 auto;
+    bottom: 2rem;
+
+}
+
+a {
+    text-decoration: none;
+}
+.elemento-6__item {
+    display: inline-block;
+    margin: 0 1rem;
+    
+    
+
+}
+.elemento-6__item a{
+    color: #777;
+    padding: .2rem .5rem;
+    display: inline-block;
+}
+.elemento-6__item a:hover{
+    border-bottom: solid 2px #777;
+}
+.elemento-6__item a:before{
+    content:"◘";
+}
+.Titulo-grande {
+font-size: 10rem;
+font-weight: 300;
+padding-top: 5rem;
+display: block;
+text-align: ;
+
+
+
+}
+
+.flecha{
+    position: absolute;
+    right: 3rem;
+    top: 40%;
+    background-color: #777;
+    padding: .2rem .3rem;
+    border-radius: .2rem;
+    font-size: 2rem;
+    color: white;
+
+
+
+}
+
+.image{
+    width: 140px;
+    height: 140px;
+    display: inline-block;
+    border-radius: .5rem;
+    background-color: white;
+    margin: .5rem;
+}
+.imagenes{
+    text-align: center;
+    padding: 0;
+    margin-top: 1rem;
+    overflow: auto;
+}
+
+
+
+
